@@ -1,0 +1,26 @@
+{
+    "name": "electron-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron Output",
+        "compile": "tsc",
+        "clean": "rimraf Output",
+        "copy": "bash devtools/copy-files.sh",
+        "build": "npm run clean && npm run copy && npm run compile"
+    },
+    "author": "Adi Shilo; Electron example",
+    "license": "ISC",
+    "dependencies": {
+        "electron": "^1.4.4",
+        "react": "^15.3.2",
+        "react-dom": "^15.3.2"
+    },
+    "devDependencies": {
+        "@types/electron": "^1.4.24",
+        "@types/react": "^0.14.41",
+        "@types/react-dom": "^0.14.18",
+        "rimraf": "^2.5.4"
+    }
+}
