@@ -20,7 +20,14 @@ The TS compiler acknowleges _TSX_ which is the parallel to JSX in the TS world, 
 
 **Electron** Takes the idea of NodeJS to allow JS run outside the environment of an explorer, and combines it with the UI rendering engine of Chrome to create UI for a desktop application, written with web-tools (like React or Angular) and running cross-platform (remember NodeJS?) !
 
-So let us now create a dev environment combining all those cool tools for creating our own cross-platform, web-UI based, desktop application!
+If you would just like to see it running, from the root folder:
+```
+npm run build
+npm start
+```
+The build script calls the `bash devtools/copy-files.sh` script to copy all HTML and JSON files to the Output/ folder, so if you're on Windows and don't have bash installed - change this script or copy them manually.
+
+For those of you who wants to build the dev-environment step by step - let us now create a dev environment combining all those cool tools for creating our own cross-platform, web-UI based, desktop application!
 
 ## Environment Structure
 Our small environment contains of the following files & folders structure:
