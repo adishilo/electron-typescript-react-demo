@@ -22,6 +22,9 @@ The TS compiler acknowleges _TSX_ which is the parallel to JSX in the TS world, 
 
 If you would just like to see it running, from the root folder:
 ```
+npm install
+npm install -g electron
+npm install -g typescript
 npm run build
 npm start
 ```
